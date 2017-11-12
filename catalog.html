@@ -11,17 +11,28 @@
         <a class="main-header-logo" href="index.html">
           <img src="http://placehold.it/154x64" width="154" height="64" alt="GllacyShop Logo">
         </a>
-        <ul>
+        <ol>
           <li><a href="#">Каталог</a></li>
           <li><a href="#">Доставка и оплата</a></li>
           <li><a href="#">О Компании</a></li>
-        </ul>
-        <span class="search-navigation">поиск</span>
-        <!-- форма поиска -->
-        <span class="user-navigation">Вход</span>
-        <!-- форма входа-->
+        </ol>
+        <div class="search-navigation">
+          <a href="#">поиск</a>
+          <div class="overlay-search">
+            <h2>Поиск</h2>
+            <!-- форма поиска -->
+          </div>
+        </div>
+        <div class="user-navigation">
+          <a href="#">Вход</a>
+          <div class="overlay-login">
+            <h2>Личный кабинет</h2>
+            <!-- Форма входа -->
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
+          </div>
+        </div>
         <span class="user-cart">Пусто</span>
-
       </nav>
       <div class="info">
         <p>С 10 до 20, ежедневно</p>
@@ -46,7 +57,7 @@
       </section>
       <!-- результаты поиска -->
       <section class="result">
-        <ul>
+        <ol>
           <li class="catalog-item">
             <img src="http://placehold.it/267x267" width="267" height="267" alt="фотография мороженого">
             <p>310<img src="http://placehold.it/31x31" alt="Знак рубля" width="31" height="31"><span>/кг</span></p>
@@ -107,31 +118,31 @@
             <p>420<img src="http://placehold.it/31x31" alt="Знак рубля" width="31" height="31"><span>/кг</span></p>
             <h3>Сливочное с мятным сиропом</h3>
           <li>
-        </ul>
+        </ol>
+        <!-- навигация по страницам -->
+        <nav class="result-page">
+          <ol>
+            <li>
+              <a href="#">&#60;</a>
+            </li>
+            <li>
+              <a href="#">1</a>
+            </li>
+            <li>
+              <a href="#">2</a>
+            </li>
+            <li>
+              <a href="#">3</a>
+            </li>
+            <li>
+              <a href="#">4</a>
+            </li>
+            <li>
+              <a href="#">&#62;</a>
+            </li>
+          </ol>
+        </nav>
       </section>
-      <!-- навигация по страницам -->
-      <nav class="result-page">
-        <ul>
-          <li>
-            <a href="#">&#60;</a>
-          </li>
-          <li>
-            <a href="#">1</a>
-          </li>
-          <li>
-            <a href="#">2</a>
-          </li>
-          <li>
-            <a href="#">3</a>
-          </li>
-          <li>
-            <a href="#">4</a>
-          </li>
-          <li>
-            <a href="#">&#62;</a>
-          </li>
-        </ul>
-      </nav>
     </main>
     <!-- footer -->
     <footer class="main-footer">
@@ -156,5 +167,10 @@
         <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy &#169; 2017</a></p>
       </div>
     </footer>
+    <section class="modal-feedback">
+      <h2>Обратная связь</h2>
+      <p> Мы обязательно вам ответим!</p>
+      <!-- Форма обратной связи -->
+    </section>
   </body>
 </html>

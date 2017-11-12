@@ -9,15 +9,27 @@
     <header class="main-header">
       <nav class="main-navigation">
           <img src="http://placehold.it/154x64" width="154" height="64" alt="GllacyShop Logo">
-        <ul>
+        <ol>
           <li><a href="#">Каталог</a></li>
           <li><a href="#">Доставка и оплата</a></li>
           <li><a href="#">О Компании</a></li>
-        </ul>
-        <span class="search-navigation">поиск</span>
-        <!-- форма поиска -->
-        <span class="user-navigation">Вход</span>
-        <!-- форма входа-->
+        </ol>
+        <div class="search-navigation">
+          <a href="#">поиск</a>
+          <div class="overlay-search">
+            <h2>Поиск</h2>
+            <!-- форма поиска -->
+          </div>
+        </div>
+        <div class="user-navigation">
+          <a href="#">Вход</a>
+          <div class="overlay-login">
+            <h2>Личный кабинет</h2>
+            <!-- Форма входа -->
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
+          </div>
+        </div>
         <span class="user-cart">Пусто</span>
       </nav>
       <div class="info">
@@ -70,6 +82,7 @@
 
       </section>
       <section class="feature-list">
+        <h2 class="hidden">Почему стоит выбрать именно нас?</h2>
         <b>Магазин Глейси - это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</b>
         <ul>
           <li class="feature-item">
@@ -91,6 +104,7 @@
         <a href="#" class="blog-item">10 способов сервировки фруктовых щербетов к столу</a>
       </article>
       <section class="subscribe">
+        <h2 class="hidden">Подпишись на нас.</h2>
         <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
         <!-- Здесь будет форма -->
       </section>
@@ -131,5 +145,10 @@
         <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy &#169; 2017</a></p>
       </div>
     </footer>
+    <section class="modal-feedback">
+      <h2>Обратная связь</h2>
+      <p> Мы обязательно вам ответим!</p>
+      <!-- Форма обратной связи -->
+    </section>
   </body>
 </html>
